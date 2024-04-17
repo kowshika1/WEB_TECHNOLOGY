@@ -1,0 +1,193 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    height: 100%;
+}
+
+/* Left panel styles */
+.left-panel {
+    width: 30%;
+    background-color: #d3d6d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+/* Right panel styles */
+.right-panel {
+    width: 70%;
+    background-color: #dff8f0;
+    padding: 20px;
+}
+
+/* Content styles */
+.content {
+    display: none;
+}
+
+/* Display content when targeted */
+.content:target {
+    display: block;
+}
+
+/* Profile image styles */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Global text styles */
+* {
+    font-style: italic;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+/* Heading styles */
+h2 {
+    color: rgb(50, 7, 244);
+    font-size: x-large;
+}
+
+/* Table styles */
+.tb, .table {
+    border: 2px solid cyan;
+    border-radius: 2%;
+}
+
+/* List item styles */
+li {
+    color: rgb(228, 41, 175);
+}
+
+/* Ordered list styles */
+ol {
+    list-style-type: square;
+}
+
+/* Subheading styles */
+h3 {
+    color: green;
+}
+
+/* Paragraph styles */
+p {
+    color: rgb(228, 41, 175);
+}
+
+/* Email link styles */
+.email a:hover {
+    color: darkblue;
+}
+
+.email1 a:active {
+    color: chartreuse;
+}
+
+.email2 a:visited {
+    color: crimson;
+}
+
+/* Styling for the topic list in the left panel */
+.topic-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.topic-list li {
+    margin-bottom: 10px;
+}
+
+.topic-list li a {
+    text-decoration: none;
+    color: #333; /* Change link color */
+}
+
+.topic-list li a:hover {
+    color: #666; /* Change link color on hover */
+}
+
+/* Styling for the educational qualification table */
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.education-table th,
+.education-table td {
+    border: 1px solid #ddd; /* Add borders to table cells */
+    padding: 8px;
+    text-align: left;
+}
+
+.education-table th {
+    background-color: #f2f2f2; /* Light gray background for table header */
+}
+
+.education-table tr:nth-child(even) {
+    background-color: #2a5760; /* Alternate row background color */
+}
+
+/* Additional CSS for the Personal Details section */
+
+/* Personal Details container */
+.personal-details {
+    margin-top: 20px;
+    border: 2px solid #20bac3;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #bbeefb;
+}
+
+/* Personal Details heading */
+.personal-details h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Individual personal detail items */
+.personal-details p {
+    color: #666;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* Contact details */
+.contact-details {
+    margin-top: 20px;
+}
+
+/* Contact details heading */
+.contact-details h3 {
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Contact details links */
+.contact-details a {
+    color: #bc2644;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+    color: #e33838;
+}
+
+text{
+    color:#007bff;
+}
