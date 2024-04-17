@@ -1,81 +1,100 @@
+/* Reset default margin and padding */
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
 }
+
+/* Container styles */
 .container {
     display: flex;
     height: 100%;
 }
+
+/* Left panel styles */
 .left-panel {
     width: 30%;
-    background-color: #d3d6d8; /* Background color for left panel */
+    background-color: #d3d6d8;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-}
-.right-panel {
-    width: 70%;
-    background-color: #dff8f0; /* Background color for right panel */
     padding: 20px;
 }
+
+/* Right panel styles */
+.right-panel {
+    width: 70%;
+    background-color: #dff8f0;
+    padding: 20px;
+}
+
+/* Content styles */
 .content {
     display: none;
 }
+
+/* Display content when targeted */
 .content:target {
     display: block;
 }
+
+/* Profile image styles */
 .profile-image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-top: 20px; /* Adjust top margin as needed */
+    margin-top: 20px;
 }
-*{
+
+/* Global text styles */
+* {
     font-style: italic;
-    font-size:large;
-    text-justify: auto;
-    text-transform: calc();
+    font-size: large;
+    text-transform: capitalize;
 }
 
-h2{
-    color:rgb(50, 7, 244);
-    font-size:x-large;
+/* Heading styles */
+h2 {
+    color: rgb(50, 7, 244);
+    font-size: x-large;
 }
 
-.tb{
-    border:2px solid;
+/* Table styles */
+.tb, .table {
+    border: 2px solid cyan;
     border-radius: 2%;
-    border-color: cyan;
-
-
 }
 
-.table{
-    border:2px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: cyan;
-   
-    
+/* List item styles */
+li {
+    color: rgb(228, 41, 175);
 }
 
-li{
-    color:rgb(228, 41, 175);
-}
-
-ol{
+/* Ordered list styles */
+ol {
     list-style-type: square;
-    
 }
 
-h3{
-    color:green;
+/* Subheading styles */
+h3 {
+    color: green;
 }
 
-p{
-    color:rgb(228,41,175);
-    text-shadow:#6d99b6;
-    
+/* Paragraph styles */
+p {
+    color: rgb(228, 41, 175);
+}
+
+/* Email link styles */
+.email a:hover {
+    color: darkblue;
+}
+
+.email1 a:active {
+    color: chartreuse;
+}
+
+.email2 a:visited {
+    color: crimson;
 }
